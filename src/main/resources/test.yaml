@@ -1,0 +1,10 @@
+datasource:
+  routing:
+    master:
+      password: something_here
+    slave:
+      password: something_there
+
+profile:
+  env: staging
+  secret: real_secret

@@ -1,0 +1,13 @@
+datasource:
+  routing:
+    master:
+      password: something_here
+    slave:
+      password: something_there
+    slave:
+      password: something_there_and_it's_duplicated
+
+profile:
+  client: downloads-registry
+  env: staging
+  secret: real_secret
